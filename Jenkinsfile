@@ -1,5 +1,5 @@
 @Library('techED-app') _
-@Library('techEd-landscape') __
+@Library('techED-landscape') __
 
 node() {
 
