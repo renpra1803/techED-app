@@ -6,7 +6,7 @@ node() {
 
       checkout scm
 
-      setupCommonPipelineEnvironment script:this,
+      setupCommonPipelineEnvironment script:this
 
            checkChangeInDevelopment script: this
        }
