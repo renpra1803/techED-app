@@ -8,8 +8,8 @@ node() {
 
       setupCommonPipelineEnvironment script:this,
 
-      checkChangeInDevelopment script: this,
-  }
+      checkChangeInDevelopment script: this
+                   }
 
   stage('build') {
       mtaBuild script: this
