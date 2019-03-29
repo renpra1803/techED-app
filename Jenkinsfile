@@ -1,5 +1,5 @@
-@Library('techED-app') _
-@Library('techED-landscape') __
+@Library('piper-library-os') _
+@Library('piper-landscape') __
 
 node() {
 
