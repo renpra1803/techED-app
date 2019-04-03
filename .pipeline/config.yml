@@ -8,9 +8,9 @@ steps:
   mtaBuild:
     buildTarget: 'NEO'
   neoDeploy:
-        neo:
-        neoCredentialsId: 'NEO_DEPLOY'
-                 account: 's0016710694trial'
-                    host: 'account.hanatrial.ondemand.com'
+   neo: 
+    neoCredentialsId: 'NEO_DEPLOY'
+    host: 'account.hanatrial.ondemand.com'
+    account: 's0016710694trial'
   transportRequestUploadFile:
     applicationId: 'HCP'
