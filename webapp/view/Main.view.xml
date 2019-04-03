@@ -21,7 +21,7 @@
 							<SegmentedButton selectedKey="800" class="sapUiSmallMargin" selectionChange="onSelectionChange">
 								<items>
 									<SegmentedButtonItem text="800" key="800"/>
-									<SegmentedButtonItem text="400" key="400"/> 
+									<SegmentedButtonItem text="300" key="300"/> 
 								</items>
 							</SegmentedButton>
 							
