@@ -10,12 +10,12 @@
             "description": "SAPUI5 Resources"
         },
         {
-            "path": "/destinations/TECHED_400",
+            "path": "/destinations/TECHNOVATION_300",
             "target": {
                 "type": "destination",
-                "name": "TECHED_400"
+                "name": "TECHNOVATION_300"
             },
-            "description": "TECHED_400"
+            "description": "TECHNOVATION_300"
         },
         {
             "path": "/destinations/TECHED_800",
