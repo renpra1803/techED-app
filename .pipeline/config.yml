@@ -9,6 +9,7 @@ steps:
     buildTarget: 'NEO'
   neoDeploy:
     neoCredentialsId: 'NEO_DEPLOY'
+    neo:
     account: 's0016710694trial'
     host: 'account.hanatrial.ondemand.com'
   transportRequestUploadFile:
