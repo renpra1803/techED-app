@@ -6,7 +6,7 @@ parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "fiorixxx"
+  - name: "fiori101"
     type: html5
     path: .
     parameters:
