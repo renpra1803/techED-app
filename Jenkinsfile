@@ -8,7 +8,7 @@ node() {
 
       setupCommonPipelineEnvironment script:this
 
-           checkChangeInDevelopment script: this,changeDocumentId:'8000004822'
+           checkChangeInDevelopment script: this,changeDocumentId:'8000004822',developmentSystemId:'001'
        }
 
   stage('build') {
