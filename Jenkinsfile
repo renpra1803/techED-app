@@ -20,6 +20,6 @@ node() {
   }
 
   stage('solmanUpload') {
-      transportRequestUploadFile script:this,changeDocumentId:'8000004861',transportRequestId:'SM1K900471',developmentSystemId:'SM1~ABAP/001'
+      transportRequestUploadFile script:this,changeDocumentId:'8000004861',transportRequestId:'SM1K900471'
   }
 }
