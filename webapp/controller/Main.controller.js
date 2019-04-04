@@ -14,11 +14,11 @@ sap.ui.define([
         onSelectionChange: function(oEvent) {
             var oKey = oEvent.getSource().getSelectedKey();
             switch (oKey) {
-                case "400":
+                case "300":
                     var oView = this.getView();
-                    var oModel400 = this.getOwnerComponent().getModel("400");
+                    var oModel300 = this.getOwnerComponent().getModel("300");
                     var oTable = oView.byId("table0");
-                    oTable.setModel(oModel400);
+                    oTable.setModel(oModel300);
                     break;
                 case "800":
                     var oView = this.getView();
