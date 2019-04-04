@@ -4,6 +4,7 @@ general:
            endpoint: 'https://hclsdsm72a.hcldigilabs.com:8002/sap/opu/odata/sap/AI_CRM_GW_CM_CI_SRV'
            clientOpts: ''
            type: 'SOLMAN'
+           developmentSystemId:'001'
 steps:
   mtaBuild:
     buildTarget: 'NEO'
@@ -13,5 +14,4 @@ steps:
     host: 'hanatrial.ondemand.com'
     account: 's0016710694trial'
   transportRequestUploadFile:
-         developmentSystemId:'NULL'
     applicationId: 'HCP'
