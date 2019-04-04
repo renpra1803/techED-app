@@ -20,6 +20,7 @@ node() {
   }
 
   stage('solmanUpload') {
-      transportRequestUploadFile script:this,changeDocumentId:'8000004862',transportRequestId:'SM1K900475',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
+      transportRequestCreateFile script:this,developmentSystemId: 'SM1~ABAP/001'
+      transportRequestUploadFile script:this,changeDocumentId:'8000004862',transportRequestId:'SM1K900475',applicationId: 'HCP'
   }
 }
