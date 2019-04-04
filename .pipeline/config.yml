@@ -12,6 +12,5 @@ steps:
     neoCredentialsId: 'NEO_DEPLOY'
     host: 'hanatrial.ondemand.com'
     account: 's0016710694trial'
-  transportRequestUploadFile:
-         developmentSystemId: 'SM1~ABAP/001'
+   transportRequestUploadFile:
     applicationId: 'HCP'
