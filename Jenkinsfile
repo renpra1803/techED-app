@@ -8,7 +8,7 @@ node() {
 
       setupCommonPipelineEnvironment script:this
 
-           checkChangeInDevelopment script: this,changeDocumentId:'8000004822'
+           checkChangeInDevelopment script: this,changeDocumentId:'8000004861'
        }
 
   stage('build') {
@@ -20,6 +20,6 @@ node() {
   }
 
   stage('solmanUpload') {
-      transportRequestUploadFile script:this,changeDocumentId:'8000004822',transportRequestId:'SM1K900469'
+      transportRequestUploadFile script:this,changeDocumentId:'8000004861',transportRequestId:'SM1K900471'
   }
 }
