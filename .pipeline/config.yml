@@ -13,6 +13,6 @@ steps:
     host: 'hanatrial.ondemand.com'
     account: 's0016710694trial'
     transportRequestCreate:
-    developmentSystemId:'NULL'
+    developmentSystemId:'001'
   transportRequestUploadFile:
     applicationId: 'HCP'
