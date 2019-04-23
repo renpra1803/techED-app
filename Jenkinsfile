@@ -9,6 +9,7 @@ node() {
       setupCommonPipelineEnvironment script:this
 
            checkChangeInDevelopment script: this,changeDocumentId:'8000003758'
+           checkChangeCreated script: this,changeDocumentId:'8000003758'
     
        }
 
