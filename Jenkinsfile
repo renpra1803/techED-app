@@ -8,7 +8,7 @@ node() {
 
       setupCommonPipelineEnvironment script:this
 
-           checkChangeInDevelopment script: this,changeDocumentId:'8000003758'     
+           checkChangeInDevelopment script: this,changeDocumentId:'8000004874'     
     
        }
 
@@ -21,9 +21,9 @@ node() {
   }
 
   stage('solmanTrCreate') {
-      transportRequestCreate script:this, changeDocumentId:'8000003758',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
+      transportRequestCreate script:this, changeDocumentId:'8000004874',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
   }
   stage('solmanTrRelease') {
-      transportRequestRelease  script:this, changeDocumentId:'8000003758',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
+      transportRequestRelease  script:this, changeDocumentId:'8000004874',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
   }
 }
