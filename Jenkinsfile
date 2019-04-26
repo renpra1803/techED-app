@@ -23,7 +23,7 @@ node() {
   stage('solmanTrCreate') {
       transportRequestCreate script:this, changeDocumentId:'8000004822',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
   }
-  stage('solmanTrRelease') {
-      transportRequestRelease  script:this, changeDocumentId:'8000004822',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
+  stage('solmanUpload') {
+      transportRequestUploadFile  script:this, changeDocumentId:'8000004822',developmentSystemId: 'SM1~ABAP/001',applicationId: 'HCP'
   }
 }
